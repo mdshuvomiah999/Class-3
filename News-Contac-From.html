@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome To Contac From</title>
+  </head>
+  <body>
+    <form>
+      <h1>Sing Up</h1>
+      <fieldset>
+        <h3><legend>Personal Information</legend></h3>
+        <p>First Name: <input type="text" name="first-name" required /></p>
+        <p>Last Name: <input type="text" name="last-name" required /></p>
+        <p>Father's Name: <input type="text" name="father-name" required /></p>
+        <p>Mother's Name: <input type="text" name="mother-name" required /></p>
+        <p>
+          Email: <input type="email" placeholder="example@gmail.com" required />
+        </p>
+        <p>Phone Number: <input type="tel" name="Mobile-Number" required /></p>
+        <p>Password: <input type="password" name="Password" required /></p>
+        <p>
+          Select Your Gender: <input type="radio" name="gender" />Male
+          <input type="radio" name="gender" />Female
+        </p>
+      </fieldset>
+      <fieldset>
+        <h3><legend>Sleect Your Favorite Things</legend></h3>
+        <p>
+          Select Your Favorite Language & framework
+          <input type="radio" name="lang" />C#
+          <input type="radio" name="lang" />JS
+          <input type="radio" name="lang" />Python
+          <input type="radio" name="lang" />Java
+          <input type="radio" name="lang" />C++
+          <input type="radio" name="fram" />React
+          <input type="radio" name="fram" />Express
+          <input type="radio" name="fram" />Next.js
+          <input type="radio" name="fram" />Vue.js
+          <input type="radio" name="fram" />Angular
+          <input type="radio" name="fram" />Node.js
+          <input type="radio" name="fram" />Svelte
+          <input type="radio" name="fram" />NestJS
+          <input type="radio" name="fram" />NuxtJS
+          <input type="radio" name="fram" />Gatsby
+        </p>
+        <p>
+          Select Yout Favorite Things
+          <input type="checkbox" name="fav" />Laptop
+          <input type="checkbox" name="fav" />Mobile
+          <input type="checkbox" name="fav" />Table
+          <input type="checkbox" name="fav" />Mouse
+          <input type="checkbox" name="fav" />Bus
+          <input type="checkbox" name="fav" />Sea
+          <input type="checkbox" name="fav" />River
+        </p>
+        <p>
+          <label for="fram-select">Select your css fraemwork:</label>
+          <select name="css-frame" id="frm-select">
+            <option value="">---Please choose an option---</option>
+            <option value="Bootstrap">Bootstrap</option>
+            <option value="Tailwind CSS">Tailwind CSS</option>
+            <option value="Foundation">Foundation</option>
+            <option value="Bulma">Bulma</option>
+            <option value="Skeleton">Skeleton</option>
+          </select>
+          <br />
+          <label for="hr-select">Select yout favorite Food:</label> <br />
+          <select name="foods" id="hr-select">
+            <option value="">Choose a food</option>
+            <hr />
+            <optgroup label="Fruit">
+              <option value="apple">Apples</option>
+              <option value="banana">Bananas</option>
+              <option value="cherry">Cherries</option>
+              <option value="damson">Damsons</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Vegetables">
+              <option value="tomato">Tomatos</option>
+              <option value="carrot">Carrots</option>
+              <option value="cabbage">Cabbage</option>
+              <option value="green-peas">Green Peas</option>
+              <option value="spring-onion">Spring Onion</option>
+              <option value="spinach">Spinach</option>
+              <option value="beetroot">Beetroot</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Meal">
+              <option value="hilsa-fish-with-mustard-curry">
+                Shorshe Hilsa Fish
+              </option>
+              <option value="kacchi-biriyani">Kacchi Biriyani</option>
+              <option value="bhun-khichuri">Buna Khichuri</option>
+              <option value="sheek-kebab">Sheek-Kabab</option>
+            </optgroup>
+            <hr />
+            <optgroup label="Fish">
+              <option value="cod">cod</option>
+              <option value="pangkah">Pangkah</option>
+              <option value="pirana">piran</option>
+              <option value="bouyal">bouyal</option>
+            </optgroup>
+          </select>
+          <br />
+          <label>
+            Please choose one or more Animals:
+            <select name="animas" miltiple size="5">
+              <optgroup lebel="10-legged animals">
+                <option value="elephant">Elephant</option>
+                <option value="goat">Goat</option>
+                <option value="ox">Ox</option>
+                <option value="bullock">Bullock</option>
+                <option value="cat">Cat</option>
+                <option value="wolf">Wolf</option>
+                <option value="lioness">Lioness</option>
+                <option value="kangaroo">Kangaroo</option>
+                <option value="lion">Lion</option>
+                <option value="tiger">Tiger</option>
+                <option value="hamster" disabled>Hamster</option>
+              </optgroup>
+              <optgroup label="Flying Birds">
+                <option value="mynah">mynah</option>
+                <option value="water-hen">Water hen</option>
+                <option value="parakeet">Parakeet</option>
+                <option value="peacock">Peacock</option>
+                <option value="nightingale">Nightingale</option>
+                <option value="eagle">Eagle</option>
+                <option value="weaver-bird">Weaver Bird</option>
+              </optgroup>
+            </select>
+          </label>
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Standard Controls</legend>
+        <select name="A1" id="select" autocomplete="off" required>
+          <option value="dress">Dress</option>
+          <option value="cloths">Cloths</option>
+          <option value="cloth">Cloths</option>
+          <option value="flannel">Flanned</option>
+          <option value="hessian">Hessian</option>
+          <option value="hessian">
+            Hessianhessianhessianhessianhessainsehhhids
+          </option>
+        </select>
+      </fieldset>
+      <label for="fav-number">Inter Your Favorite Number</label>
+      <input type="number" name="fav-number" readonly value="0162727272" />
+      <p>Date of Birth<input type="date" name="date" id="date" /></p>
+      <textarea
+        name="Bio"
+        id="Bio"
+        cols="70"
+        rows="7"
+        placeholder="Pleace Write something about you"
+      ></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+      <button>Cancel</button>
+      <input type="button" value="Go Back" />
+    </form>
+  </body>
+</html>
